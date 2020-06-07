@@ -51,3 +51,5 @@ dependencies = [
  "libc",
  "miniz_oxide",
  "object",
+ "rustc-demangle",
+]
