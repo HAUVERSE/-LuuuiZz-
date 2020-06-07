@@ -48,3 +48,6 @@ dependencies = [
  "addr2line",
  "cc",
  "cfg-if",
+ "libc",
+ "miniz_oxide",
+ "object",
