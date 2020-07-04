@@ -117,3 +117,11 @@ dependencies = [
  "autocfg",
  "cfg-if",
  "crossbeam-utils",
+ "memoffset",
+ "scopeguard",
+]
+
+[[package]]
+name = "crossbeam-utils"
+version = "0.8.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
