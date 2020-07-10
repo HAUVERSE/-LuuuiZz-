@@ -138,3 +138,6 @@ checksum = "22813a6dc45b335f9bade10bf7271dc477e81113e89eb251a0bc2a8a81c536e1"
 dependencies = [
  "bstr",
  "csv-core",
+ "itoa",
+ "ryu",
+ "serde",
