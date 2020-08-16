@@ -250,3 +250,10 @@ dependencies = [
  "approx",
  "ndarray",
  "num-traits",
+ "rand",
+ "thiserror",
+]
+
+[[package]]
+name = "linfa-datasets"
+version = "0.6.0"
