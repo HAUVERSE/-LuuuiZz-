@@ -244,3 +244,5 @@ checksum = "292a948cd991e376cf75541fe5b97a1081d713c618b4f1b9500f8844e49eb565"
 name = "linfa"
 version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20345c27f1041e3d3c6457d92530688a9134c28cabaf4cf9a6e0d90a91ac7075"
+dependencies = [
