@@ -265,3 +265,7 @@ dependencies = [
  "linfa",
  "ndarray",
  "ndarray-csv",
+]
+
+[[package]]
+name = "linfa-trees"
