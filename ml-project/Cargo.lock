@@ -270,3 +270,6 @@ dependencies = [
 [[package]]
 name = "linfa-trees"
 version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "101aa7c5897f0e37ea5b1a601cea593b65f7e0c48877d1328157cf52aab02ed2"
+dependencies = [
