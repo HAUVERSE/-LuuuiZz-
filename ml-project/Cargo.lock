@@ -280,3 +280,5 @@ dependencies = [
 
 [[package]]
 name = "matrixmultiply"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
