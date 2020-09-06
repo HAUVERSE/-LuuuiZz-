@@ -320,3 +320,5 @@ dependencies = [
  "linfa-datasets",
  "linfa-trees",
  "ndarray",
+ "plotlib",
+]
