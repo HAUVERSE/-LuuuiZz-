@@ -333,3 +333,5 @@ dependencies = [
  "matrixmultiply",
  "num-complex",
  "num-integer",
+ "num-traits",
+ "rawpointer",
