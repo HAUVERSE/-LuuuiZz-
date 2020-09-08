@@ -335,3 +335,9 @@ dependencies = [
  "num-integer",
  "num-traits",
  "rawpointer",
+ "rayon",
+]
+
+[[package]]
+name = "ndarray-csv"
+version = "0.5.1"
