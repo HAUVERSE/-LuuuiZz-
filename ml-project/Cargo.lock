@@ -346,3 +346,8 @@ checksum = "9f7c71981ebc5a541b64a8af9db36502669932550d23c0e5e8e5a873d11902b4"
 dependencies = [
  "csv",
  "either",
+ "ndarray",
+ "serde",
+]
+
+[[package]]
