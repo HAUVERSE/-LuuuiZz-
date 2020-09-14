@@ -365,3 +365,9 @@ dependencies = [
 name = "num-complex"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ae39348c8bc5fbd7f40c727a9925f03517afd2ab27d46702108b6a7e5414c19"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
