@@ -482,3 +482,7 @@ dependencies = [
  "num-traits",
  "rand",
 ]
+
+[[package]]
+name = "rawpointer"
+version = "0.2.1"
