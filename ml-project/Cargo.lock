@@ -498,3 +498,5 @@ dependencies = [
  "autocfg",
  "crossbeam-deque",
  "either",
+ "rayon-core",
+]
