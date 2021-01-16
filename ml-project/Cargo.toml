@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 linfa = "0.6.0"
-lin
+linfa-t
