@@ -4,3 +4,8 @@
 <g>
 <line stroke="darkgrey" stroke-width="1" x1="0" x2="480" y1="NaN" y2="NaN"/>
 <line stroke="darkgrey" stroke-width="1" x1="NaN" x2="NaN" y1="0" y2="-340"/>
+</g>
+<g>
+<g>
+<rect fill="#00ff00" height="4" width="4" x="78" y="-136.64"/>
+<rect fill="#00ff00" height="4" width="4" x="126" y="-69.32"/>
