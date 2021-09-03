@@ -533,3 +533,9 @@
 <rect fill="#00ff00" height="4" width="4" x="126" y="-106.72"/>
 <rect fill="#00ff00" height="4" width="4" x="238" y="-118.28"/>
 <rect fill="#00ff00" height="4" width="4" x="118" y="-140.72"/>
+</g>
+</g>
+<g transform="translate(380, -340)">
+<text font-size="12" text-anchor="start" x="0" y="0">
+Trestbps
+</text>
