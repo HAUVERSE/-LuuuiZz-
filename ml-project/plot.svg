@@ -1043,3 +1043,9 @@ Trestbps
 <rect fill="#ff0000" height="4" width="4" x="158" y="-95.84"/>
 </g>
 </g>
+<g>
+<g>
+<line stroke="black" stroke-width="1" x1="0" x2="0" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="160" x2="160" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="320" x2="320" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="480" x2="480" y1="0" y2="10"/>
