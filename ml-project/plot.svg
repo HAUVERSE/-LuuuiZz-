@@ -1055,3 +1055,6 @@ Trestbps
 <text font-size="12" text-anchor="middle" x="0" y="20">
 80
 </text>
+<text font-size="12" text-anchor="middle" x="160" y="20">
+120
+</text>
