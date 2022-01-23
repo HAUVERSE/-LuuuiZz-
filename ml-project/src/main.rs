@@ -8,3 +8,6 @@ use plotlib::repr::Plot;
 use plotlib::style::{PointMarker, PointStyle};
 use plotlib::grid::Grid;
 use plotlib::view::ContinuousView;
+use plotlib::view::View;
+use linfa::prelude::*;
+use linfa_logistic::LogisticRegression;
