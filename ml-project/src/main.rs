@@ -26,3 +26,9 @@ fn get_dataset() -> Dataset<f32, i32, ndarray::Dim<[usize;1]>> {
     let targets = get_targets(&data, target_index);
 
     return Dataset::new(records, targets).with_feature_names(features);
+}
+
+fn get_headers( reader: &mut Reader<File>) -> Vec<String> {
+    return reader
+        .headers().unwrap().iter()
+        .map(|r| r.to_owned())
