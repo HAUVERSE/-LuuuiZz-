@@ -22,3 +22,7 @@ fn get_dataset() -> Dataset<f32, i32, ndarray::Dim<[usize;1]>> {
     let target_index = headers.len() - 1;
 
     let features = headers[0..target_index].to_vec();
+    let records = get_records(&data, target_index);
+    let targets = get_targets(&data, target_index);
+
+    return Dataset::new(records, targets).with_feature_names(features);
