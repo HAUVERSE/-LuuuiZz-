@@ -16,3 +16,9 @@ type MyDataset = DatasetBase<ArrayBase<OwnedRepr<f64>, Dim<[usize; 2]>>, ArrayBa
 
 fn get_dataset() -> Dataset<f32, i32, ndarray::Dim<[usize;1]>> {
     let mut reader = Reader::from_path("./src/heart.csv").unwrap();
+
+    let headers = get_headers(&mut reader);
+    let data = get_data(&mut reader);
+    let target_index = headers.len() - 1;
+
+    let features = headers[0..target_index].to_vec();
