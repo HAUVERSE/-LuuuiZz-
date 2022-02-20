@@ -32,3 +32,5 @@ fn get_headers( reader: &mut Reader<File>) -> Vec<String> {
     return reader
         .headers().unwrap().iter()
         .map(|r| r.to_owned())
+        .collect();
+}
