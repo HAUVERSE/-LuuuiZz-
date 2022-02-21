@@ -34,3 +34,5 @@ fn get_headers( reader: &mut Reader<File>) -> Vec<String> {
         .map(|r| r.to_owned())
         .collect();
 }
+
+fn get_data(reader: &mut Reader<File>) -> Vec<Vec<f32>> {
