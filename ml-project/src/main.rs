@@ -36,3 +36,6 @@ fn get_headers( reader: &mut Reader<File>) -> Vec<String> {
 }
 
 fn get_data(reader: &mut Reader<File>) -> Vec<Vec<f32>> {
+    return reader
+        .records()
+        .map( |r|
