@@ -51,3 +51,4 @@ fn get_records(data: &Vec<Vec<f32>>, target_index: usize) -> Array2<f32> {
     let mut records: Vec<f32> = vec![];
     for record in data.iter() {
         records.extend_from_slice( &record[0..target_index] );
+    }
