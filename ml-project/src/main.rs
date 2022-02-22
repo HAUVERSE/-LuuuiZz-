@@ -43,3 +43,11 @@ fn get_data(reader: &mut Reader<File>) -> Vec<Vec<f32>> {
               .map(|field| field.parse::<f32>().unwrap())
               .collect::<Vec<f32>>()
               )
+        .collect::<Vec<Vec<f32>>>();
+
+}
+
+fn get_records(data: &Vec<Vec<f32>>, target_index: usize) -> Array2<f32> {
+    let mut records: Vec<f32> = vec![];
+    for record in data.iter() {
+        records.extend_from_slice( &record[0..target_index] );
