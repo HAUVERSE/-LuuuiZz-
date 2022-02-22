@@ -40,3 +40,6 @@ fn get_data(reader: &mut Reader<File>) -> Vec<Vec<f32>> {
         .records()
         .map( |r|
               r.unwrap().iter()
+              .map(|field| field.parse::<f32>().unwrap())
+              .collect::<Vec<f32>>()
+              )
