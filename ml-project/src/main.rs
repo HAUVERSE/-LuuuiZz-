@@ -52,3 +52,9 @@ fn get_records(data: &Vec<Vec<f32>>, target_index: usize) -> Array2<f32> {
     for record in data.iter() {
         records.extend_from_slice( &record[0..target_index] );
     }
+
+    return Array::from( records ).into_shape((1025, 13)).unwrap();
+}
+
+fn get_targets(data: &Vec<Vec<f32>>, target_index: usize ) -> Array1<i32> {
+    let targets = data
