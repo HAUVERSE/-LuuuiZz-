@@ -59,3 +59,7 @@ fn get_records(data: &Vec<Vec<f32>>, target_index: usize) -> Array2<f32> {
 fn get_targets(data: &Vec<Vec<f32>>, target_index: usize ) -> Array1<i32> {
     let targets = data
         .iter()
+        .map(|record| record[target_index] as i32)
+        .collect::<Vec<i32>>();
+    return Array::from( targets );
+}
