@@ -63,3 +63,6 @@ fn get_targets(data: &Vec<Vec<f32>>, target_index: usize ) -> Array1<i32> {
         .collect::<Vec<i32>>();
     return Array::from( targets );
 }
+
+fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
+    let records = dataset.records().clone().into_raw_vec();
