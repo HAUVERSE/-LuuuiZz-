@@ -69,3 +69,10 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
     let _features = dataset.feature_names();
     //Toate valorile intr-un singur sir
     println!("{:?} records", records.len());
+
+    // Toate valorile in bucati de cate 13 - atatea sunt pe un singur rand de date
+    // chunks face o lista in care fiecare element este o lista cu 13 elemente
+    let chunks: Vec<&[f32]> = records.chunks(13).collect();
+    println!("{:?} chunks", chunks.len());
+
+    // Targets nu face parte din records
