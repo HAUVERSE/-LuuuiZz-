@@ -76,3 +76,6 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
     println!("{:?} chunks", chunks.len());
 
     // Targets nu face parte din records
+    let targets = dataset.targets().clone().into_raw_vec();
+    println!("{:?} targets", targets.len());
+    let mut positive = vec![];
