@@ -84,3 +84,7 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
         let current_row = chunks.get(i).expect("current row");
         // Daca target pentru fiecare rand este 1, adaug la positive, valoarea corespunzatoare
         // trestbps, index 3
+        // chol, index 4
+        if let Some(&1) = targets.get(i) {
+            positive.push(( current_row[3] as f64, current_row[4] as f64 ));
+        } else {
