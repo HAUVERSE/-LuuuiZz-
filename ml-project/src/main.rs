@@ -79,3 +79,8 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
     let targets = dataset.targets().clone().into_raw_vec();
     println!("{:?} targets", targets.len());
     let mut positive = vec![];
+    let mut negative = vec![];
+    for i in 0..chunks.len() {
+        let current_row = chunks.get(i).expect("current row");
+        // Daca target pentru fiecare rand este 1, adaug la positive, valoarea corespunzatoare
+        // trestbps, index 3
