@@ -88,3 +88,8 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
         if let Some(&1) = targets.get(i) {
             positive.push(( current_row[3] as f64, current_row[4] as f64 ));
         } else {
+            negative.push(( current_row[3] as f64, current_row[4] as f64 ))
+        }
+    }
+
+    println!("positive {:?}", positive.len());
