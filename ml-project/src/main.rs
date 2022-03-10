@@ -93,3 +93,7 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
     }
 
     println!("positive {:?}", positive.len());
+    println!("negative {:?}", negative.len());
+    
+    let plot_positive = Plot::new(positive)
+        .point_style(
