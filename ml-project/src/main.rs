@@ -100,3 +100,6 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
             PointStyle::new()
                 .size(2.0)
                 .marker(PointMarker::Square)
+                .colour("#00ff00"),
+            )
+        .legend("Trestbps".to_string());
