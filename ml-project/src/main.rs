@@ -103,3 +103,7 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
                 .colour("#00ff00"),
             )
         .legend("Trestbps".to_string());
+
+    let plot_negative = Plot::new(negative)
+        .point_style(
+            PointStyle::new()
