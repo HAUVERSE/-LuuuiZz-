@@ -121,3 +121,8 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
         .y_range(50.0, 550.0)
         .x_label("TRESTBPX")
         .y_label("CHOL");
+    image.add_grid(grid);
+
+    Page::single(&image)
+        .save("plot.svg")
+        .expect("Can generate svg for Trestbps to target plot");
