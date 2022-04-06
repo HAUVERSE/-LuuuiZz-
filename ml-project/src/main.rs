@@ -126,3 +126,6 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
     Page::single(&image)
         .save("plot.svg")
         .expect("Can generate svg for Trestbps to target plot");
+}
+
+fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max_iterations: u64) -> ConfusionMatrix<&'static str> {
