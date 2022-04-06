@@ -115,3 +115,9 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
     let grid = Grid::new(0,0);
 
     let mut image = ContinuousView::new()
+        .add(plot_positive)
+        .add(plot_negative)
+        .x_range(80.0, 200.0)
+        .y_range(50.0, 550.0)
+        .x_label("TRESTBPX")
+        .y_label("CHOL");
