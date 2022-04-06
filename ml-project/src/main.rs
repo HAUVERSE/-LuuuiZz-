@@ -111,3 +111,7 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
                 .marker(PointMarker::Square)
                 .colour("#ff0000"),
             );
+
+    let grid = Grid::new(0,0);
+
+    let mut image = ContinuousView::new()
