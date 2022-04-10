@@ -133,3 +133,6 @@ fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max
         .max_iterations(max_iterations)
         .gradient_tolerance(0.0001)
         .fit(train)
+        .expect("can train model");
+
+    let validation = model.set_treshold(threshold).predict(test);
