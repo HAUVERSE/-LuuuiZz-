@@ -129,3 +129,7 @@ fn plot_data(dataset: &Dataset<f32, i32, ndarray::Dim<[usize;1]>>) {
 }
 
 fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max_iterations: u64) -> ConfusionMatrix<&'static str> {
+    let model = LogisticRegression::default()
+        .max_iterations(max_iterations)
+        .gradient_tolerance(0.0001)
+        .fit(train)
