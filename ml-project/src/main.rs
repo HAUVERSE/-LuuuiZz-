@@ -136,3 +136,6 @@ fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max
         .expect("can train model");
 
     let validation = model.set_treshold(threshold).predict(test);
+
+    let confusion_matrix = validation
+        .confusion_matrix(test)
