@@ -139,3 +139,6 @@ fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max
 
     let confusion_matrix = validation
         .confusion_matrix(test)
+        .expect("Can create confusion matrix");
+
+    confusion_matrix
