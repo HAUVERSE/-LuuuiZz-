@@ -146,3 +146,5 @@ fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max
 
 fn main() {
     let dataset = get_dataset();
+    println!("{:?}", dataset);
+    plot_data(&dataset);
