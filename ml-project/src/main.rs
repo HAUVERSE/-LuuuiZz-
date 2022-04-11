@@ -142,3 +142,7 @@ fn iterate_with_values( train: &MyDataset, test: &MyDataset, threshold: f64, max
         .expect("Can create confusion matrix");
 
     confusion_matrix
+}
+
+fn main() {
+    let dataset = get_dataset();
