@@ -152,3 +152,8 @@ fn main() {
     let (train, test) = dataset.split_with_ratio(0.9);
     println!("{:?} Train records", train.records.len());
     println!("{:?} Test records", test.targets.len());
+
+    //let model = DecisionTree::params().fit(&train).unwrap();
+    //let predictions = model.predict(&test);
+
+    //println!("{:?}", predictions);
