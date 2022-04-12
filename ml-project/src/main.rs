@@ -148,3 +148,7 @@ fn main() {
     let dataset = get_dataset();
     println!("{:?}", dataset);
     plot_data(&dataset);
+
+    let (train, test) = dataset.split_with_ratio(0.9);
+    println!("{:?} Train records", train.records.len());
+    println!("{:?} Test records", test.targets.len());
