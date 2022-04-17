@@ -157,3 +157,6 @@ fn main() {
     //let predictions = model.predict(&test);
 
     //println!("{:?}", predictions);
+    //println!("{:?}", test.targets);
+
+}
