@@ -1,1 +1,1 @@
-Ref: https://www.freecodecamp.
+Ref: https://www.freecodecamp.org/news/
