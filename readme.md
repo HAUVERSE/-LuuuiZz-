@@ -1,1 +1,1 @@
-Ref: https://www.freecodecamp.org/news/
+Ref: https://www.freecodecamp.org/news/ho
