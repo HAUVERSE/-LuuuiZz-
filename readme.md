@@ -1,1 +1,1 @@
-Ref: https://www.freecodecamp.org/news/how-to-build
+Ref: https://www.freecodecamp.org/news/how-to-build-a
