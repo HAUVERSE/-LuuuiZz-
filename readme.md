@@ -1,1 +1,1 @@
-Ref: https://www.freecodecamp.org/news/how-to-build-a
+Ref: https://www.freecodecamp.org/news/how-to-build-a-ma
