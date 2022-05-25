@@ -1,1 +1,1 @@
-Ref: https://www.freecodecamp.org/news/how-to-build-a-machine-learning-m
+Ref: https://www.freecodecamp.org/news/how-to-build-a-machine-learning-mode
