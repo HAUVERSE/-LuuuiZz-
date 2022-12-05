@@ -5,4 +5,4 @@ Ref: https://www.digitalocean.com/community/tutorials/install-rust-on-ubuntu-lin
 curl https://sh.rustup.rs -sSf | sh
 source ~/.cargo/env
 
-### Add l
+### Add linfa dep
