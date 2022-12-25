@@ -6,4 +6,4 @@ curl https://sh.rustup.rs -sSf | sh
 source ~/.cargo/env
 
 ### Add linfa dependencies, csv, ndarray
-In Cargo.tom
+In Cargo.toml 
