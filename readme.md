@@ -8,4 +8,4 @@ source ~/.cargo/env
 ### Add linfa dependencies, csv, ndarray
 In Cargo.toml add
 ```
-linfa = "0.6.
+linfa = "0.6.0"
