@@ -9,4 +9,4 @@ source ~/.cargo/env
 In Cargo.toml add
 ```
 linfa = "0.6.0"
-linfa-trees
+linfa-trees = "
