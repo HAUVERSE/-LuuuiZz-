@@ -10,4 +10,4 @@ In Cargo.toml add
 ```
 linfa = "0.6.0"
 linfa-trees = "0.6.0"
-linfa-datasets = { version = "0.6.0", features = [
+linfa-datasets = { version = "0.6.0", features = ["iris
