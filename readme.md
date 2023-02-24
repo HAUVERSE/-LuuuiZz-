@@ -11,4 +11,4 @@ In Cargo.toml add
 linfa = "0.6.0"
 linfa-trees = "0.6.0"
 linfa-datasets = { version = "0.6.0", features = ["iris"] }
-csv 
+csv = "1.1"
